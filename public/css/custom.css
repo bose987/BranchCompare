@@ -1,0 +1,239 @@
+.trunk-t {
+  color: green;
+	padding-left:2px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.stage-t {
+  color: orange;
+padding-left:2px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.prod-t {
+  color: red;
+padding-left:2px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.trunk-t:before{
+	content: '\f058';
+}
+.stage-t:before{
+	content: '\f058';
+}
+.prod-t:before{
+	content: '\f058';
+}
+
+
+.trunk-f {
+	color: green;
+	padding-left:2px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.stage-f{
+	color: orange;
+	padding-left:2px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.prod-f{
+	color: red;
+	padding-left:2px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.trunk-f:before{
+	content: "\f00d";
+}
+.stage-f:before{
+	content: "\f00d";
+}
+.prod-f:before{
+	content: "\f00d";
+}
+
+
+
+.trunk-wa{
+	color: green;
+	padding-left:2px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.stage-wa{
+	color: orange;
+	padding-left:2px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.prod-wa{
+	color: red;
+	padding-left:2px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.trunk-wa:before{
+	content: '\f071';
+}
+
+.stage-wa:before{
+	content: '\f071';
+}
+
+.prod-wa:before{
+  content: '\f071';
+}
+
+.icon-dir {
+  margin-right: 5px;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-dir:before{
+	content: "\f07b";
+}
+.icon-file{
+  margin-right: 5px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-file:before{
+	content: "\f1c9";	
+}
+
+#dir-data tr{
+	cursor: pointer;
+}
+td.details-control {
+    background: url('/img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.details td.details-control {
+    background: url('/img/details_close.png') no-repeat center center;
+}
+
+
+.tree-folder {
+	padding-top: 2px;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	background: none;
+}
+.tree-folder:before{
+	content: "\f07b";
+}
+.tree-folder-open:before{
+	  content: "\f07c";
+}
+.tree-file{
+	padding-top: 2px;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	background: none;
+}
+.tree-file:before{
+	content: "\f1c9";
+}
+
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	width:100%;
+	overflow:hidden;
+}
+.revision-files li{
+	list-style: inherit !important;
+}
+
+.revision-files{
+	float:left;
+}
+/*#table-log-trunk_filter, #table-log-stage_filter, #table-log-prod_filter,
+#table-dir-trunk_filter,#table-dir-stage_filter, #table-dir-prod_filter{
+	float: left !important;
+	width:100% !important;
+	text-align:left !important;
+}*/
+#dir-data .dataTables_filter{
+	float:left;
+	width:100%;
+}
+#dir-data label{
+	width:100%;
+	text-align: left;
+}
+#dir-data input {
+	width:80%;
+}
+#log-data .dataTables_filter{
+	float:left;
+	width:100%;
+}
+#log-data label{
+	width:100%;
+	text-align: left;
+}
+
+#log-data input {
+	width:80%;
+}
+.revision-div{
+	height:300px;
+	overflow:auto;
+}
+.revision-div p {
+	word-wrap: break-word;	
+}
+.wrapper{
+	margin-top: 100px;
+}

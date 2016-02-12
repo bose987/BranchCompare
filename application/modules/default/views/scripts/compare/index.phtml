@@ -1,0 +1,53 @@
+<style>
+.tree-title{
+	font-size: 14px;
+}
+ .tree-title a{
+	padding-left:5px;
+ } 
+ 
+span.label{
+	padding: 10px;
+	font-size: 14px;
+	width: 100%;
+}
+.btn{
+  width: 100%;
+}
+</style>
+
+<div class="col-lg-12 main-chart">
+	<br />
+	<ol class="breadcrumb">
+      <li><a href="javascript:;">/</a></li>
+    </ol>
+	<hr id="hr-tree" style="display:none">
+	<div class="row">
+    	<div id="tree-data">
+    		<?php if( '' != $this->htmlContent ) echo $this->htmlContent; else echo '<br><br><br><h3 style="text-align:center;">No data to display. Please enter Refresh button.</h3><br><br>' ?>
+    	</div>
+    </div>
+    <br />
+	<hr id="hr-dir" style="display:none">
+	<div class="row" id="dir-data">
+		<h3 style="display:none;text-align:center;">Directory</h3>
+		<div id="dir-trunk-data" class="col-md-4 col-sm-4" style="display: table;">
+    	</div>
+    	<div id="dir-stage-data" class="col-md-4 col-sm-4" style="display: table;">
+    	</div>
+    	<div id="dir-prod-data" class="col-md-4 col-sm-4" style="display: table;">
+    	</div>
+	</div>
+	<br />
+	<hr id="hr-log" style="display:none">
+	<div class="row" id="log-data">
+		<h3 style="display:none;text-align:center;">Log</h3>
+    	<div id="log-trunk-data" class="col-md-4 col-sm-4" style="display: table;">
+    	</div>
+    	<div id="log-stage-data" class="col-md-4 col-sm-4" style="display: table;">
+    	</div>
+    	<div id="log-prod-data" class="col-md-4 col-sm-4" style="display: table;">
+    	</div>
+    </div>
+
+</div>
